@@ -1,0 +1,400 @@
+{
+  "bucket" : [ {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495472532710",
+    "startTimeMillis" : "1495386132710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495558932710",
+    "startTimeMillis" : "1495472532710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495645332710",
+    "startTimeMillis" : "1495558932710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495731732710",
+    "startTimeMillis" : "1495645332710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495818132710",
+    "startTimeMillis" : "1495731732710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495904532710",
+    "startTimeMillis" : "1495818132710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1495990932710",
+    "startTimeMillis" : "1495904532710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1496077332710",
+    "startTimeMillis" : "1495990932710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1496163732710",
+    "startTimeMillis" : "1496077332710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1496250132710",
+    "startTimeMillis" : "1496163732710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496333541893000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496332305704000000",
+        "value" : [ {
+          "intVal" : 580,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496336532710",
+    "startTimeMillis" : "1496250132710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496362602063000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496338049403000000",
+        "value" : [ {
+          "intVal" : 566,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496422932710",
+    "startTimeMillis" : "1496336532710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496485604365389653",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496482836558262577",
+        "value" : [ {
+          "intVal" : 268,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496509332710",
+    "startTimeMillis" : "1496422932710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496569552753000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496567036242000000",
+        "value" : [ {
+          "intVal" : 48,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496595732710",
+    "startTimeMillis" : "1496509332710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ ]
+    } ],
+    "endTimeMillis" : "1496682132710",
+    "startTimeMillis" : "1496595732710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496768532710000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496686979139000000",
+        "value" : [ {
+          "intVal" : 2926,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496768532710",
+    "startTimeMillis" : "1496682132710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496854358428462077",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496768532710000000",
+        "value" : [ {
+          "intVal" : 4556,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496854932710",
+    "startTimeMillis" : "1496768532710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1496860171428278730",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496859067768000000",
+        "value" : [ {
+          "intVal" : 242,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1496941332710",
+    "startTimeMillis" : "1496854932710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497007561366000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1496942378189545207",
+        "value" : [ {
+          "intVal" : 1363,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497027732710",
+    "startTimeMillis" : "1496941332710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497113383154000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497035410443000000",
+        "value" : [ {
+          "intVal" : 3514,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497114132710",
+    "startTimeMillis" : "1497027732710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497198928148000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497115827044000000",
+        "value" : [ {
+          "intVal" : 536,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497200532710",
+    "startTimeMillis" : "1497114132710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497286932710000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497200553528000000",
+        "value" : [ {
+          "intVal" : 2605,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497286932710",
+    "startTimeMillis" : "1497200532710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497370643354246539",
+        "originDataSourceId" : "derived:com.google.activity.samples:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:detailed",
+        "startTimeNanos" : "1497286932710000000",
+        "value" : [ {
+          "intVal" : 2538,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497373332710",
+    "startTimeMillis" : "1497286932710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497457929357679500",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497375442536000000",
+        "value" : [ {
+          "intVal" : 1682,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497459732710",
+    "startTimeMillis" : "1497373332710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497542966391918115",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497462865637999961",
+        "value" : [ {
+          "intVal" : 2690,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497546132710",
+    "startTimeMillis" : "1497459732710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497632339808882769",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497555765684000000",
+        "value" : [ {
+          "intVal" : 1540,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497632532710",
+    "startTimeMillis" : "1497546132710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497705392410000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497636254737000000",
+        "value" : [ {
+          "intVal" : 467,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497718932710",
+    "startTimeMillis" : "1497632532710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497783120153000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497727029656000000",
+        "value" : [ {
+          "intVal" : 1976,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497805332710",
+    "startTimeMillis" : "1497718932710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497884819344172422",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497866993789000000",
+        "value" : [ {
+          "intVal" : 2766,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497891732710",
+    "startTimeMillis" : "1497805332710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497964986508000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497892067210000000",
+        "value" : [ {
+          "intVal" : 1586,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1497978132710",
+    "startTimeMillis" : "1497891732710"
+  }, {
+    "dataset" : [ {
+      "dataSourceId" : "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+      "point" : [ {
+        "dataTypeName" : "com.google.step_count.delta",
+        "endTimeNanos" : "1497999978575000000",
+        "originDataSourceId" : "derived:com.google.step_count.cumulative:com.google.android.gms:samsung:SM-J120FN:8cb7f8a5b5acb2a7:soft_step_counter",
+        "startTimeNanos" : "1497982650288000000",
+        "value" : [ {
+          "intVal" : 1750,
+          "mapVal" : [ ]
+        } ]
+      } ]
+    } ],
+    "endTimeMillis" : "1498064532710",
+    "startTimeMillis" : "1497978132710"
+  } ]
+}
