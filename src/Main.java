@@ -21,6 +21,7 @@ public class Main {
         DbConnector dbConnector= new DbConnector();
         try {
             dbConnector.storeSteps(readFile("stepData.json", StandardCharsets.UTF_8));
+            dbConnector.storeUser(readFile("userData.json", StandardCharsets.UTF_8));
         } catch (IOException e) {
             e.printStackTrace();
         }
