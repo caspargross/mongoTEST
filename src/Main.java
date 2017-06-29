@@ -22,6 +22,7 @@ public class Main {
         try {
             dbConnector.storeUser(readFile("userData.json", StandardCharsets.UTF_8));
             dbConnector.storeSteps(readFile("stepData.json", StandardCharsets.UTF_8));
+            dbConnector.extractData(1495472532710l, 1498064532710l);
         } catch (IOException e) {
             e.printStackTrace();
         }

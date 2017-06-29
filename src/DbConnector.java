@@ -20,11 +20,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-import static com.mongodb.client.model.Aggregates.out;
-import static com.mongodb.client.model.Aggregates.project;
-import static com.mongodb.client.model.Aggregates.unwind;
-import static com.mongodb.client.model.Filters.and;
-import static com.mongodb.client.model.Filters.eq;
+import static com.mongodb.client.model.Aggregates.*;
+import static com.mongodb.client.model.Filters.*;
 import static com.mongodb.client.model.Projections.*;
 
 /**
@@ -39,12 +36,7 @@ public class DbConnector extends MongoClient {
     String sessionUserID;
 
 
-    Block<Document> printBlock = new Block<Document>() {
-        @Override
-        public void apply(final Document document) {
-            System.out.println(document.toJson());
-        }
-    };
+    Block<Document> printBlock = document -> System.out.println(document.toJson());
 
 
 
@@ -136,6 +128,54 @@ public class DbConnector extends MongoClient {
         daysColl.replaceOne(eq("_id", startTime), newDayDoc, new UpdateOptions().upsert(true));
 
     }
+
+    public void extractData(Long startTime, Long endTime) {
+
+        System.out.println("Data Extraction started");
+
+        db.getCollection("steps").aggregate(Arrays.asList(
+                match(
+                        and(
+                                eq("user", sessionUserID),
+                                gte("startMillis", startTime),
+                                lte("endMillis", endTime)
+                        )
+                ),
+                lookup(
+                        "days", "startMillis", "_id", "averages"
+                ),
+                project(
+                        fields(
+                                excludeId(),
+                                include("startMillis"),
+                                include("steps"),
+                                include("averages.average")
+
+                        )
+                )
+        )).forEach(printBlock);
+
+
+    }
+
+
+    /*public void extractData(Long startTime, Long endTime) {
+
+        System.out.println("Data Extraction started");
+
+        db.getCollection("steps").find(
+                and(
+                        eq("user", sessionUserID),
+                        gte("startMillis", startTime),
+                        lte("endMillis", endTime)
+                )
+                fields( lookup("daysColl", "startMillis", "_id", "average").toBsonDocument(),
+                                excludeId(),
+                                include("startMillis"),
+                                include("steps")
+                        )).forEach(printBlock);
+
+    } */
 
 
 
