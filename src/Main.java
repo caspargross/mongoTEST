@@ -18,10 +18,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("MongoDB Data Tester");
 
-        DbConnector dbConnector= new DbConnector();
+        DbConnector dbConnector= new DbConnector("116026863562234915983");
         try {
-            dbConnector.storeSteps(readFile("stepData.json", StandardCharsets.UTF_8));
             dbConnector.storeUser(readFile("userData.json", StandardCharsets.UTF_8));
+            dbConnector.storeSteps(readFile("stepData.json", StandardCharsets.UTF_8));
         } catch (IOException e) {
             e.printStackTrace();
         }
